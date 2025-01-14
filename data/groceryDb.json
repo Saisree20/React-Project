@@ -1,0 +1,837 @@
+{
+  "groceries": [
+    {
+      "id": "1",
+      "name": "Milk",
+      "category": "Dairy",
+      "price": 1.99,
+      "stock": 150,
+      "unit": "liter",
+      "image": "https://t3.ftcdn.net/jpg/02/23/71/38/240_F_223713833_IVzWUhbC2t3WdN83GoNCPDjHmefthXoq.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Bread",
+      "category": "Bakery",
+      "price": 2.5,
+      "stock": 200,
+      "unit": "loaf",
+      "image": "https://t4.ftcdn.net/jpg/00/61/02/57/240_F_61025778_duV6lpLlza9D72FMAdOLS92Ez2bDhHWB.jpg"
+    },
+    {
+      "name": "Eggs",
+      "category": "Dairy",
+      "price": 7,
+      "stock": 100,
+      "unit": "dozen",
+      "image": "https://t4.ftcdn.net/jpg/00/84/06/55/240_F_84065569_LM2iMedj4XjnucwKSIBgRBSxbvQLWkxi.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Apples",
+      "category": "Fruits",
+      "price": 25,
+      "stock": 80,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/00/60/21/67/240_F_60216790_unEoXThwKl3MKNGsRGWPTP1UBDw3Efty.jpg",
+      "id": "4"
+    },
+    {
+      "id": "5",
+      "name": "Carrot",
+      "category": "Vegetables",
+      "price": 1.5,
+      "stock": 120,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/08/51/28/55/240_F_851285543_6VXyEDUSXFYL8DazqWq0QuoK5Q02UdWc.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Chicken Breast",
+      "category": "Meat",
+      "price": 5.99,
+      "stock": 50,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/09/86/61/39/240_F_986613966_55jT80Kn6dAS5NfMWs3dg9Z4m14WZs7K.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Tomato",
+      "category": "Vegetables",
+      "price": 1.75,
+      "stock": 200,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/06/12/35/58/240_F_612355880_lHm7aJrBSQOzjTuLnbpCKvni8s9fBd1O.jpg"
+    },
+    {
+      "name": "Cucumber",
+      "category": "Vegetables",
+      "price": 120,
+      "stock": 150,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/00/79/37/28/240_F_79372833_XC4hnS9JJOQH9srNJiOb9dKqXO6ASYOq.jpg",
+      "id": "8"
+    },
+    {
+      "name": "Banana",
+      "category": "Fruits",
+      "price": 100,
+      "stock": 100,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/00/09/08/54/240_F_9085486_EE5ha1cNDfYgSc23pWXLTwjyX0pP5zV9.jpg",
+      "id": "9"
+    },
+    {
+      "id": "10",
+      "name": "Potato",
+      "category": "Vegetables",
+      "price": 1.8,
+      "stock": 180,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/00/41/30/10/240_F_41301053_AbLi3hlosbLajBo7lQdNyfGz9eusxY1x.jpg"
+    },
+    {
+      "name": "Orange",
+      "category": "Fruits",
+      "price": 3,
+      "stock": 120,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/00/61/19/53/240_F_61195341_rR4lMptEspj16GvOdmy0MaMznSRveh2M.jpg",
+      "id": "11"
+    },
+    {
+      "name": "Lettuce",
+      "category": "Vegetables",
+      "price": 1.5,
+      "stock": 200,
+      "unit": "head",
+      "image": "https://t4.ftcdn.net/jpg/02/80/03/99/240_F_280039907_Ny5g14FK1JQU59POwyU5eJj8ZaQNjmQw.jpg",
+      "id": "13"
+    },
+    {
+      "name": "Spinach",
+      "category": "Vegetables",
+      "price": 2,
+      "stock": 150,
+      "unit": "bunch",
+      "image": "https://t4.ftcdn.net/jpg/11/43/01/09/240_F_1143010954_DTnN3IhPzoyWh2EH4ZSdc7g4cHE1xpqh.jpg",
+      "id": "14"
+    },
+    {
+      "name": "Garlic",
+      "category": "Vegetables",
+      "price": 3,
+      "stock": 250,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/05/61/74/04/240_F_561740489_opEfaOEknZbKgxnIhaY65eDDyW27aUUf.jpg",
+      "id": "15"
+    },
+    {
+      "name": "Onion",
+      "category": "Vegetables",
+      "price": 2.2,
+      "stock": 300,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/02/17/49/85/240_F_217498504_JEE2V2ohtmx7sAaavIfpb83zPclbyZH7.jpg",
+      "id": "16"
+    },
+    {
+      "name": "Pineapple",
+      "category": "Fruits",
+      "price": 5.5,
+      "stock": 60,
+      "unit": "each",
+      "image": "https://t4.ftcdn.net/jpg/00/40/36/49/240_F_40364956_poDftweCzHgPqP6atwAn2BZ40vTnbm1H.jpg",
+      "id": "17"
+    },
+    {
+      "name": "Mango",
+      "category": "Fruits",
+      "price": 4,
+      "stock": 100,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/00/52/87/43/240_F_52874381_Ucxx67h9KLuxSXiNGcsmHfSjAuqRXqDr.jpg",
+      "id": "18"
+    },
+    {
+      "name": "Broccoli",
+      "category": "Vegetables",
+      "price": 2.5,
+      "stock": 80,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/01/98/71/84/240_F_198718474_qji1GoXe6cFyP6QRfBaHmvVvvQMFrTgY.jpg",
+      "id": "19"
+    },
+    {
+      "name": "Avocado",
+      "category": "Fruits",
+      "price": 1.8,
+      "stock": 90,
+      "unit": "each",
+      "image": "https://t4.ftcdn.net/jpg/05/71/16/25/240_F_571162538_B50nrwc9u2pomSWfD4NQsGGxjXrGCCAE.jpg",
+      "id": "20"
+    },
+    {
+      "name": "Yogurt",
+      "category": "Dairy",
+      "price": 2.99,
+      "stock": 180,
+      "unit": "liter",
+      "image": "https://t3.ftcdn.net/jpg/02/53/96/08/240_F_253960817_dpWv9VmIx10mPRRsEO3ElNM1xoOUQGet.jpg",
+      "id": "21"
+    },
+    {
+      "name": "Butter slices",
+      "category": "Dairy",
+      "price": 4.5,
+      "stock": 70,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/00/37/67/33/240_F_37673390_TNW6tR5MV4HAkbQTeHYkNiv6CJIiqyzA.jpg",
+      "id": "22"
+    },
+    {
+      "name": "Cheese",
+      "category": "Dairy",
+      "price": 5.99,
+      "stock": 150,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/02/88/92/31/240_F_288923195_Uz7sNKOfA5e5gCL2UcJuESdk7oB1exnz.jpg",
+      "id": "23"
+    },
+    {
+      "name": "Tomato Sauce",
+      "category": "Canned",
+      "price": 2.5,
+      "stock": 100,
+      "unit": "can",
+      "image": "https://t3.ftcdn.net/jpg/02/00/97/26/240_F_200972686_OrHSUQt8GisnTJL53yyHsmg5nNptrGw6.jpg",
+      "id": "24"
+    },
+    {
+      "name": "Rice",
+      "category": "Grains",
+      "price": 1.99,
+      "stock": 500,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/03/09/22/29/240_F_309222978_boIWb07TufCqJ8al1keo6nnXASPsXPsy.jpg",
+      "id": "25"
+    },
+    {
+      "name": "Pasta",
+      "category": "Grains",
+      "price": 1.99,
+      "stock": 200,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/04/84/66/54/240_F_484665421_p5qlgPEFccK8ah8yAisg2fAmbRjyfVBt.jpg",
+      "id": "26"
+    },
+    {
+      "name": "Olive Oil",
+      "category": "Oils",
+      "price": 4.5,
+      "stock": 100,
+      "unit": "liter",
+      "image": "https://t4.ftcdn.net/jpg/08/70/49/29/240_F_870492950_6a2yk6uvzs8mnohqCeOistBVELJYJ4ic.jpg",
+      "id": "27"
+    },
+    {
+      "name": "Canola Oil",
+      "category": "Oils",
+      "price": 3,
+      "stock": 120,
+      "unit": "liter",
+      "image": "https://t3.ftcdn.net/jpg/00/84/65/08/240_F_84650880_iD0YY4t8hmiPSb3OEOeLPXSSmumOl61K.jpg",
+      "id": "28"
+    },
+    {
+      "name": "Sugar",
+      "category": "Sweeteners",
+      "price": 150,
+      "stock": "20",
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/06/09/79/60/240_F_609796079_WWwH2ddcekMeO1Mb6bDyc81ycecgSfRr.jpg",
+      "id": "29"
+    },
+    {
+      "name": "Salt",
+      "category": "Seasoning",
+      "price": 0.99,
+      "stock": 400,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/03/64/43/19/240_F_364431936_lgdgzCXtHD3aPnCVuFvyRlnduzgI2Jnd.jpg",
+      "id": "30"
+    },
+    {
+      "name": "Pepper",
+      "category": "Seasoning",
+      "price": 2,
+      "stock": 150,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/09/75/36/22/240_F_975362204_zD2848CI85E2GGBiX7E9R3n8OrR9FqbP.jpg",
+      "id": "31"
+    },
+    {
+      "name": "Tea Bags",
+      "category": "Beverages",
+      "price": 3.99,
+      "stock": 200,
+      "unit": "box",
+      "image": "https://t4.ftcdn.net/jpg/09/94/65/33/240_F_994653386_ZHqmWL5yfPDjtDu0TEuU4Pc3k4gxaeft.jpg",
+      "id": "32"
+    },
+    {
+      "name": "Coffee Beans",
+      "category": "Beverages",
+      "price": 8,
+      "stock": 100,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/03/16/76/16/240_F_316761640_yrXEcJX0KGkfECfQRE6Hca2SDkbIbpaP.jpg",
+      "id": "33"
+    },
+    {
+      "name": "Orange Juice",
+      "category": "Beverages",
+      "price": 3.5,
+      "stock": 80,
+      "unit": "liter",
+      "image": "https://t3.ftcdn.net/jpg/09/22/24/84/240_F_922248497_49webz0OORYrjt14iUAI87qEOFLraiMj.jpg",
+      "id": "34"
+    },
+    {
+      "name": "Coke tin",
+      "category": "Beverages",
+      "price": 1.5,
+      "stock": 150,
+      "unit": "liter",
+      "image": "https://t3.ftcdn.net/jpg/03/01/73/06/240_F_301730649_tcTlW3Eqi73s95PnaZx9mk3sD4IdV15E.jpg",
+      "id": "35"
+    },
+    {
+      "name": "Lemon",
+      "category": "Fruits",
+      "price": 1.99,
+      "stock": 90,
+      "unit": "each",
+      "image": "https://t4.ftcdn.net/jpg/02/55/39/77/240_F_255397744_rwNCund3WjKsrsv6yKKpK8tzmJ8sYRnF.jpg",
+      "id": "36"
+    },
+    {
+      "name": "Watermelon",
+      "category": "Fruits",
+      "price": 4,
+      "stock": 60,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/02/79/07/25/240_F_279072592_Nrp4eF2Jzzb0wxta4TUNJEQHudzupBP3.jpg",
+      "id": "37"
+    },
+    {
+      "name": "Peach",
+      "category": "Fruits",
+      "price": 3.5,
+      "stock": 120,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/03/00/59/16/240_F_300591692_sE2Zpz9hoU0H1Klz0JzRw1F74HO7vWne.jpg",
+      "id": "38"
+    },
+    {
+      "name": "Plum",
+      "category": "Fruits",
+      "price": 3,
+      "stock": 110,
+      "unit": "kg",
+      "image": "https://t3.ftcdn.net/jpg/01/78/81/50/240_F_178815001_VYxOwNEi9f5QPmZiEyNyJ6Ns1sXuTeYp.jpg",
+      "id": "39"
+    },
+    {
+      "name": "Grapes",
+      "category": "Fruits",
+      "price": 4.2,
+      "stock": 130,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/00/70/94/63/240_F_70946377_VJXdpJqld6XOsOTO6lt95ieZSxGO0faM.jpg",
+      "id": "40"
+    },
+    {
+      "name": "Pomegranate",
+      "category": "Fruits",
+      "price": 5,
+      "stock": 70,
+      "unit": "each",
+      "image": "https://t4.ftcdn.net/jpg/05/22/71/07/240_F_522710718_aRdiZa5fIS1kJWswpTuGzAMvPxFAUTpb.jpg",
+      "id": "41"
+    },
+    {
+      "name": "Kale",
+      "category": "Vegetables",
+      "price": 2.8,
+      "stock": 150,
+      "unit": "bunch",
+      "image": "https://t4.ftcdn.net/jpg/03/52/89/57/240_F_352895761_zaoqDFwltfkoiv20O96FHTJl4R2B1gPr.jpg",
+      "id": "42"
+    },
+    {
+      "name": "Zucchini",
+      "category": "Vegetables",
+      "price": 2,
+      "stock": 120,
+      "unit": "kg",
+      "image": "https://t4.ftcdn.net/jpg/02/83/34/71/240_F_283347152_KFosjjQoQNt1k3wdgPlJkVNRvGhiabdk.jpg",
+      "id": "43"
+    },
+    {
+      "id": "44",
+      "name": "Mushrooms",
+      "category": "Vegetables",
+      "price": 3.5,
+      "stock": 130,
+      "unit": "kg",
+      "image": ""
+    },
+    {
+      "id": "45",
+      "name": "Cabbage",
+      "category": "Vegetables",
+      "price": 2,
+      "stock": 100,
+      "unit": "head",
+      "image": ""
+    },
+    {
+      "id": "46",
+      "name": "Beets",
+      "category": "Vegetables",
+      "price": 2.2,
+      "stock": 80,
+      "unit": "kg",
+      "image": ""
+    },
+    {
+      "id": "47",
+      "name": "Eggplant",
+      "category": "Vegetables",
+      "price": 2.4,
+      "stock": 100,
+      "unit": "kg",
+      "image": ""
+    },
+    {
+      "id": "48",
+      "name": "Chili Peppers",
+      "category": "Vegetables",
+      "price": 2,
+      "stock": 90,
+      "unit": "kg",
+      "image": ""
+    },
+    {
+      "id": "49",
+      "name": "Paprika",
+      "category": "Vegetables",
+      "price": 2.6,
+      "stock": 70,
+      "unit": "kg"
+    },
+    {
+      "id": "50",
+      "name": "Cherries",
+      "category": "Fruits",
+      "price": 5,
+      "stock": 60,
+      "unit": "kg"
+    },
+    {
+      "id": "51",
+      "name": "Raspberries",
+      "category": "Fruits",
+      "price": 4.5,
+      "stock": 80,
+      "unit": "kg"
+    },
+    {
+      "id": "52",
+      "name": "Strawberries",
+      "category": "Fruits",
+      "price": 4,
+      "stock": 150,
+      "unit": "kg"
+    },
+    {
+      "id": "53",
+      "name": "Blackberries",
+      "category": "Fruits",
+      "price": 4.5,
+      "stock": 90,
+      "unit": "kg"
+    },
+    {
+      "id": "54",
+      "name": "Blueberries",
+      "category": "Fruits",
+      "price": 5,
+      "stock": 70,
+      "unit": "kg"
+    },
+    {
+      "id": "55",
+      "name": "Cantaloupe",
+      "category": "Fruits",
+      "price": 3.2,
+      "stock": 50,
+      "unit": "kg"
+    },
+    {
+      "id": "56",
+      "name": "Pineapple",
+      "category": "Fruits",
+      "price": 3.7,
+      "stock": 100,
+      "unit": "each"
+    },
+    {
+      "id": "57",
+      "name": "Chili Sauce",
+      "category": "Condiments",
+      "price": 2.99,
+      "stock": 90,
+      "unit": "bottle"
+    },
+    {
+      "id": "58",
+      "name": "Soy Sauce",
+      "category": "Condiments",
+      "price": 2.2,
+      "stock": 120,
+      "unit": "bottle"
+    },
+    {
+      "id": "59",
+      "name": "Vinegar",
+      "category": "Condiments",
+      "price": 1.8,
+      "stock": 150,
+      "unit": "liter"
+    },
+    {
+      "id": "60",
+      "name": "Mustard",
+      "category": "Condiments",
+      "price": 1.5,
+      "stock": 200,
+      "unit": "bottle"
+    },
+    {
+      "id": "61",
+      "name": "Ketchup",
+      "category": "Condiments",
+      "price": 2,
+      "stock": 250,
+      "unit": "bottle"
+    },
+    {
+      "id": "62",
+      "name": "BBQ Sauce",
+      "category": "Condiments",
+      "price": 2.2,
+      "stock": 90,
+      "unit": "bottle"
+    },
+    {
+      "id": "63",
+      "name": "Honey",
+      "category": "Sweeteners",
+      "price": 4,
+      "stock": 150,
+      "unit": "kg"
+    },
+    {
+      "id": "64",
+      "name": "Maple Syrup",
+      "category": "Sweeteners",
+      "price": 6,
+      "stock": 80,
+      "unit": "liter"
+    },
+    {
+      "id": "65",
+      "name": "Granola",
+      "category": "Snacks",
+      "price": 3.5,
+      "stock": 150,
+      "unit": "kg"
+    },
+    {
+      "id": "66",
+      "name": "Chips",
+      "category": "Snacks",
+      "price": 2,
+      "stock": 200,
+      "unit": "packet"
+    },
+    {
+      "id": "67",
+      "name": "Popcorn",
+      "category": "Snacks",
+      "price": 1.5,
+      "stock": 100,
+      "unit": "packet"
+    },
+    {
+      "id": "68",
+      "name": "Cookies",
+      "category": "Snacks",
+      "price": 3,
+      "stock": 130,
+      "unit": "packet"
+    },
+    {
+      "id": "69",
+      "name": "Crackers",
+      "category": "Snacks",
+      "price": 2.5,
+      "stock": 120,
+      "unit": "box"
+    },
+    {
+      "id": "70",
+      "name": "Candy Bars",
+      "category": "Snacks",
+      "price": 1.5,
+      "stock": 100,
+      "unit": "bar"
+    },
+    {
+      "id": "71",
+      "name": "Fruit Snacks",
+      "category": "Snacks",
+      "price": 2,
+      "stock": 90,
+      "unit": "packet"
+    },
+    {
+      "id": "72",
+      "name": "Ice Cream",
+      "category": "Frozen",
+      "price": 5,
+      "stock": 80,
+      "unit": "liter"
+    },
+    {
+      "id": "73",
+      "name": "Frozen Vegetables",
+      "category": "Frozen",
+      "price": 3.5,
+      "stock": 100,
+      "unit": "kg"
+    },
+    {
+      "id": "74",
+      "name": "Frozen Pizza",
+      "category": "Frozen",
+      "price": 4,
+      "stock": 150,
+      "unit": "each"
+    },
+    {
+      "id": "75",
+      "name": "Frozen Fries",
+      "category": "Frozen",
+      "price": 2.2,
+      "stock": 200,
+      "unit": "kg"
+    },
+    {
+      "id": "76",
+      "name": "Frozen Chicken Nuggets",
+      "category": "Frozen",
+      "price": 5,
+      "stock": 100,
+      "unit": "kg"
+    },
+    {
+      "id": "77",
+      "name": "Frozen Fish Sticks",
+      "category": "Frozen",
+      "price": 3.5,
+      "stock": 60,
+      "unit": "kg"
+    },
+    {
+      "id": "78",
+      "name": "Frozen Sandwiches",
+      "category": "Frozen",
+      "price": 4.5,
+      "stock": 80,
+      "unit": "each"
+    },
+    {
+      "id": "79",
+      "name": "Frozen Lasagna",
+      "category": "Frozen",
+      "price": 5,
+      "stock": 70,
+      "unit": "kg"
+    },
+    {
+      "id": "80",
+      "name": "Frozen Burritos",
+      "category": "Frozen",
+      "price": 4,
+      "stock": 100,
+      "unit": "each"
+    },
+    {
+      "id": "81",
+      "name": "Frozen Waffles",
+      "category": "Frozen",
+      "price": 3,
+      "stock": 120,
+      "unit": "pack"
+    },
+    {
+      "id": "82",
+      "name": "Frozen Pancakes",
+      "category": "Frozen",
+      "price": 2.5,
+      "stock": 150,
+      "unit": "pack"
+    },
+    {
+      "id": "83",
+      "name": "Tofu",
+      "category": "Meat",
+      "price": 4,
+      "stock": 90,
+      "unit": "kg"
+    },
+    {
+      "id": "84",
+      "name": "Tempeh",
+      "category": "Meat",
+      "price": 5,
+      "stock": 80,
+      "unit": "kg"
+    },
+    {
+      "id": "85",
+      "name": "Lentils",
+      "category": "Grains",
+      "price": 2,
+      "stock": 200,
+      "unit": "kg"
+    },
+    {
+      "id": "86",
+      "name": "Chickpeas",
+      "category": "Grains",
+      "price": 2.5,
+      "stock": 150,
+      "unit": "kg"
+    },
+    {
+      "id": "87",
+      "name": "Black Beans",
+      "category": "Grains",
+      "price": 1.8,
+      "stock": 180,
+      "unit": "kg"
+    },
+    {
+      "id": "88",
+      "name": "Red Beans",
+      "category": "Grains",
+      "price": 2,
+      "stock": 150,
+      "unit": "kg"
+    },
+    {
+      "id": "89",
+      "name": "Kidney Beans",
+      "category": "Grains",
+      "price": 2.2,
+      "stock": 140,
+      "unit": "kg"
+    },
+    {
+      "id": "90",
+      "name": "Rice Flour",
+      "category": "Grains",
+      "price": 2.8,
+      "stock": 100,
+      "unit": "kg"
+    },
+    {
+      "id": "91",
+      "name": "All-Purpose Flour",
+      "category": "Grains",
+      "price": 1.9,
+      "stock": 300,
+      "unit": "kg"
+    },
+    {
+      "id": "92",
+      "name": "Almond Flour",
+      "category": "Grains",
+      "price": 4.5,
+      "stock": 100,
+      "unit": "kg"
+    },
+    {
+      "id": "93",
+      "name": "Coconut Flour",
+      "category": "Grains",
+      "price": 4,
+      "stock": 80,
+      "unit": "kg"
+    },
+    {
+      "id": "94",
+      "name": "Cocoa Powder",
+      "category": "Baking",
+      "price": 3.5,
+      "stock": 120,
+      "unit": "kg"
+    },
+    {
+      "id": "98",
+      "name": "Chocolate Chips",
+      "category": "Baking",
+      "price": 4,
+      "stock": 130,
+      "unit": "kg"
+    },
+    {
+      "id": "99",
+      "name": "Honeycomb",
+      "category": "Baking",
+      "price": 6,
+      "stock": 70,
+      "unit": "kg"
+    },
+    {
+      "id": "100",
+      "name": "Lemon Juice",
+      "category": "Baking",
+      "price": 3,
+      "stock": 110,
+      "unit": "liter"
+    },
+    {
+      "id": "101",
+      "name": "Papaya",
+      "category": "Food",
+      "price": 15,
+      "stock": "3",
+      "unit": "Kg",
+      "image": "https://t3.ftcdn.net/jpg/03/12/06/60/240_F_312066045_cfz8S7qiuiYSAIQphk4PZGKlmKJGiQXA.jpg"
+    },
+    {
+      "id": "c57c",
+      "name": "Dress",
+      "category": "Clothing",
+      "price": 700,
+      "stock": "5",
+      "unit": "No",
+      "image": "https://t4.ftcdn.net/jpg/03/51/87/99/240_F_351879965_YvYCzWEHSeSkLuz6FjUyEPVtY45u8LnX.jpg"
+    }
+  ]
+}
