@@ -21,6 +21,8 @@ import MoreProductDetails from "./MoreProductDetails.tsx";
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
 import axios from "axios";
+import { FixedSizeList as List } from "react-window";
+
 interface IGroceries {
   id: number;
   name: string;
@@ -44,6 +46,14 @@ const Content = () => {
   const handleAddProduct = () => {
     setOpenAddDialog(true);
   };
+  const Row = ({ index, style }) => {
+    const data = groceries?.[index];
+    return (
+      <div style={style}>
+        <ProductCard data={data} />
+      </div>
+    );
+  };
   return (
     <div>
       <Box sx={{ marginTop: "2%", textAlign: "end" }}>
@@ -55,14 +65,22 @@ const Content = () => {
           Add Product
         </Button>
       </Box>
-      <Grid container spacing={2} style={{ marginTop: "2%" }}>
+      {/* <Grid container spacing={2} style={{ marginTop: "2%" }}>
         {groceries &&
           groceries.map((data) => (
             <Grid key={data.id} xs={12} sm={6} md={4} lg={2}>
               <ProductCard data={data} />
             </Grid>
           ))}
-      </Grid>
+      </Grid> */}
+      <List
+        height={600}
+        itemCount={groceries?.length}
+        itemSize={250}
+        width={"100%"}
+      >
+        {Row}
+      </List>
       {openAddDialog && (
         <AddProduct open={openAddDialog} setOpenAddDialog={setOpenAddDialog} />
       )}
@@ -146,7 +164,8 @@ const ProductCard = ({ data }) => {
       <Box sx={{ position: "absolute", top: 7, right: 8 }}>
         <IconButton
           aria-label="add to favorites"
-          onClick={() => setFavClicked(!favClicked)}
+          onClick={() => {console.log("fav clicked");
+           setFavClicked(!favClicked);}}
         >
           <FavoriteIcon sx={{ color: favClicked ? "red" : "inherit" }} />
         </IconButton>
